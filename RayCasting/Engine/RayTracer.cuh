@@ -9,7 +9,7 @@
 using namespace geometries;
 using namespace camera;
 
-namespace engine
+namespace 
 {
 	class RayTracer
 	{

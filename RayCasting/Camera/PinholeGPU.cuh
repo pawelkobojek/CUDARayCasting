@@ -16,11 +16,11 @@ namespace camera
 		float distance;
 
 	public:
-		__host__ __device__ PinholeGPU();
-		__host__ __device__ PinholeGPU(Vector3 origin, Vector3 lookAt, Vector3 up, float distance);
+		__device__ PinholeGPU();
+		__device__ PinholeGPU(Vector3 origin, Vector3 lookAt, Vector3 up, float distance);
 
-		__host__ __device__ Ray getRayTo(Vector2 pictureLocation) const;
-		__host__ __device__ Vector3 rayDirection(Vector2 relativeLocation) const;
+		__device__ Ray getRayTo(Vector2 pictureLocation) const;
+		__device__ Vector3 rayDirection(Vector2 relativeLocation) const;
 
 		static PinholeGPU* GpuAlloc(Vector3 origin, Vector3 lookAt, Vector3 up, float distance);
 

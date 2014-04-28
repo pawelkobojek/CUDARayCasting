@@ -8,7 +8,6 @@ namespace materials
 
 	Phong::Phong() : materialColor(ColorRGB(0.0f, 0.0f, 0.0f)) {}
 
-	__host__ __device__
 		ColorRGB Phong::radiance(const PointLight l, const HitInfo hit) const
 	{
 			Vector3 inDirection = (l.getPosition() - hit.hitPoint).normalized();

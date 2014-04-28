@@ -21,10 +21,10 @@ namespace geometries
 		float radius;
 		PhongGPU material;
 
-		__host__ __device__ SphereGPU();
-		__host__ __device__ SphereGPU(const Vector3 center, const float radius, Phong material);
-		__host__ __device__ ~SphereGPU() {}
-		__host__ __device__ bool hitTest(const Ray ray, float* distance, Vector3* normal) const;
+		__device__ SphereGPU();
+		__device__ SphereGPU(const Vector3 center, const float radius, Phong material);
+		__device__ ~SphereGPU() {}
+		__device__ bool hitTest(const Ray ray, float* distance, Vector3* normal) const;
 	};
 }
 

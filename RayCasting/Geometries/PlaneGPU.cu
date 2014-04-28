@@ -13,7 +13,7 @@ namespace geometries
 	{
 		float t = (point - ray.origin).dot(normal) / ray.direction.dot(normal);
 
-		if (t > 0.0001)//ray.epsilon)
+		if (t > 0)//ray.epsilon)
 		{
 			*distance = t;
 			*outNormal = normal;

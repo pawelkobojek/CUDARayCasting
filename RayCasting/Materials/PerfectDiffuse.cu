@@ -4,7 +4,6 @@ namespace materials
 {
 	PerfectDiffuse::PerfectDiffuse(ColorRGB c) : materialColor(c) {}
 
-	__host__ __device__
 		ColorRGB PerfectDiffuse::radiance(const PointLight light, const HitInfo hit) const
 	{
 			Vector3 inD = (light.getPosition() - hit.hitPoint).normalized();

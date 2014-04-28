@@ -12,7 +12,7 @@ namespace materials
 		specularExponent(material.specularExponent) {
 	}
 
-	__host__ __device__
+	__device__
 		ColorRGB PhongGPU::radiance(const PointLight l, const HitInfoGPU hit) const
 	{
 		Vector3 inDirection = (l.getPosition() - hit.hitPoint).normalized();
@@ -29,7 +29,7 @@ namespace materials
 		return result;
 	}
 
-		__host__ __device__ float PhongGPU::phongFactor(const Vector3 inDirection, const Vector3 normal, const Vector3 toCameraDirection) const
+		__device__ float PhongGPU::phongFactor(const Vector3 inDirection, const Vector3 normal, const Vector3 toCameraDirection) const
 	{
 		Vector3 reflected = reflect(inDirection, normal);
 		float cosAngle = reflected.dot(toCameraDirection);

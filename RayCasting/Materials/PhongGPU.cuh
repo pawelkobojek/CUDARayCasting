@@ -19,9 +19,9 @@ namespace materials
 		PhongGPU(ColorRGB materialColor, float diffuse, float specular, float specularExponent);
 		PhongGPU();
 
-		__host__ __device__ ColorRGB radiance(const PointLight light, const HitInfoGPU hit) const;
+		__device__ ColorRGB radiance(const PointLight light, const HitInfoGPU hit) const;
 
-		__host__ __device__ float phongFactor(const Vector3 inDirection, const Vector3 normal, const Vector3 toCameraDirection) const;
+		__device__ float phongFactor(const Vector3 inDirection, const Vector3 normal, const Vector3 toCameraDirection) const;
 	};
 }
 

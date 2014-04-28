@@ -9,7 +9,7 @@ namespace geometries
 	__host__ __device__ SphereGPU::SphereGPU() {}
 
 
-	__host__ __device__ bool SphereGPU::hitTest(const Ray ray, float* minDistance, Vector3* outNormal) const
+	__device__ bool SphereGPU::hitTest(const Ray ray, float* minDistance, Vector3* outNormal) const
 	{
 		float t;
 		Vector3 distance = ray.origin - center;

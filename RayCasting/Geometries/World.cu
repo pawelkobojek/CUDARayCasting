@@ -68,15 +68,14 @@ namespace geometries
 			}
 		}
 
-		if(gpuplane != NULL) {
-			if(gpuplane->hitTest(ray, &hitDistance, &normal) && hitDistance < minimalDistance) {
-				minimalDistance = hitDistance;
-				result.hitPlane = gpuplane;
-				result.normal = normal;
-			}
+		if(gpuplane->hitTest(ray, &hitDistance, &normal) && hitDistance < minimalDistance) {
+			minimalDistance = hitDistance;
+			result.hitPlane = gpuplane;
+			result.normal = normal;
 		}
 
-		if (result.hitObject || result.hitPlane) {
+
+		if (result.hitPlane || result.hitObject) {
 			result.hitPoint = ray.origin + ray.direction * minimalDistance;
 			result.ray = ray;
 			result.world = (World*) this;
@@ -85,7 +84,7 @@ namespace geometries
 		return result;
 	}
 
-	__host__ __device__ HitInfo World::traceRay(primitives::Ray ray) const
+	HitInfo World::traceRay(primitives::Ray ray) const
 	{
 		HitInfo result = HitInfo();
 		Vector3 normal = Vector3();
@@ -110,8 +109,7 @@ namespace geometries
 			return result;
 	}
 
-	__host__ __device__
-		bool World::anyObstacleBetween(Vector3 pointA, Vector3 pointB) const
+	bool World::anyObstacleBetween(Vector3 pointA, Vector3 pointB) const
 	{
 		Vector3 vectorAB = pointB - pointA;
 		float distAB = vectorAB.length();
@@ -126,7 +124,7 @@ namespace geometries
 		return false;
 	}
 
-	__host__ __device__ bool World::gpuAnyObstacleBetween(Vector3 pointA, Vector3 pointB) const {
+	__device__ bool World::gpuAnyObstacleBetween(Vector3 pointA, Vector3 pointB) const {
 		Vector3 vectorAB = pointB - pointA;
 		float distAB = vectorAB.length();
 		float currDistance = FLT_MAX;//Ray::huge;
@@ -137,6 +135,8 @@ namespace geometries
 		for (int i = 0; i < currentObject; i++)
 			if (gpuspheres[i].hitTest(ray, &currDistance, &ignored) && currDistance < distAB)
 				return true;
+		if(gpuplane->hitTest(ray, &currDistance, &ignored) && currDistance < distAB)
+			return true;
 		return false;
 	}
 
@@ -184,9 +184,6 @@ namespace geometries
 			if(world->lights[i] != NULL) {
 				lights[i] = PointLight(world->lights[i]->position, world->lights[i]->color);
 				gpuLightsCount++;
-				cout << "YupLight#" << i << endl;
-			} else {
-				cout << "NotYupLight#" << i << endl;
 			}
 		}
 		/*
@@ -215,11 +212,11 @@ namespace geometries
 		cudaMemcpy(d_lights, lights, sizeof(PointLight) * gpuLightsCount, cudaMemcpyHostToDevice);
 		cudaMemcpy(&(d_ptr->gpulights), &d_lights, sizeof(PointLight*), cudaMemcpyHostToDevice);
 
-
 		return d_ptr;
 	}
 
 	void World::GpuFree(World* d_ptr) {
+		cudaFree(d_ptr->gpuplane);
 		cudaFree(d_ptr->gpulights);
 		cudaFree(d_ptr->gpuspheres);
 		cudaFree(d_ptr);

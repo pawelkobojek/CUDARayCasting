@@ -12,21 +12,6 @@ namespace engine
 		shadeRayGPU(world, ray, &image[COORDS_2DTO1D(x, y)]);
 	}
 
-	ColorRGB RayTracerGPU::shadeRay(const World* world, const Ray ray)
-	{
-		HitInfo info = world->traceRay(ray);
-
-		if (!info.hitObject) return world->backgroundColor;
-
-		ColorRGB finalColor = ColorRGB::black;
-		IMaterial* material = info.hitObject->material;
-
-		for (int i = 0; i < world->lightsCount; i++)
-			if (world->lights[i] && !world->anyObstacleBetween(info.hitPoint, world->lights[i]->getPosition()))
-				finalColor += material->radiance(*(world->lights[i]), info);
-		return finalColor;
-	}
-
 	__device__ void RayTracerGPU::shadeRayGPU(const World* world, const Ray ray, uint32_t* colorRgb) {
 
 			HitInfoGPU info = world->traceRayGPU(ray);
