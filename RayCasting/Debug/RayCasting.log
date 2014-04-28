@@ -1,0 +1,281 @@
+﻿Build started 2014-04-28 14:59:56.
+     1>Project "H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\RayCasting\RayCasting.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\RayCasting.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" /I. /FIcuda_runtime.h /c "H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\RayCasting\Common\ColorRGB.cu" 
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" /I. /FIcuda_runtime.h /c "H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\RayCasting\Engine\RayTracerCPU.cu" 
+       AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" /I. /FIcuda_runtime.h /c "H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\RayCasting\Engine\RayTracerGPU.cu" 
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" /I. /FIcuda_runtime.h /c "H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\RayCasting\Geometries\World.cu" 
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" /I. /FIcuda_runtime.h /c "H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\RayCasting\main.cu" 
+       AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" /I. /FIcuda_runtime.h /c "H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\RayCasting\MainWindow.cu" 
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+         Compiling CUDA source file Common\ColorRGB.cu...
+         cmd.exe /C "C:\Users\kobojekp\AppData\Local\Temp\tmpa434466c80684ab2b86fad8ebd15426a.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin" -rdc=true -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include"  -G   --keep-dir "Debug" -maxrregcount=0  --machine 32 --compile  -g   -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o "Debug\ColorRGB.cu.obj" "H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\RayCasting\Common\ColorRGB.cu"
+         
+         H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\RayCasting>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin" -rdc=true -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include"  -G   --keep-dir "Debug" -maxrregcount=0  --machine 32 --compile  -g   -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o "Debug\ColorRGB.cu.obj" "H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\RayCasting\Common\ColorRGB.cu" 
+         ColorRGB.cu
+     1>H:/Windows7/Documents/Visual Studio 2010/Projects/RayCasting/RayCasting/Common/ColorRGB.cu(34): warning : a __host__ function("operator+") redeclared with __host__ __device__, hence treated as a __host__ __device__ function
+         
+         tmpxft_0000088c_00000000-2_ColorRGB.cudafe1.gpu
+         tmpxft_0000088c_00000000-7_ColorRGB.cudafe2.gpu
+         ColorRGB.cu
+         tmpxft_0000088c_00000000-2_ColorRGB.cudafe1.cpp
+         tmpxft_0000088c_00000000-12_ColorRGB.ii
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+         Compiling CUDA source file Engine\RayTracerCPU.cu...
+         cmd.exe /C "C:\Users\kobojekp\AppData\Local\Temp\tmp1179472617f8462fa741ac549b6dff65.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin" -rdc=true -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include"  -G   --keep-dir "Debug" -maxrregcount=0  --machine 32 --compile  -g   -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o "Debug\RayTracerCPU.cu.obj" "H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\RayCasting\Engine\RayTracerCPU.cu"
+         
+         H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\RayCasting>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin" -rdc=true -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include"  -G   --keep-dir "Debug" -maxrregcount=0  --machine 32 --compile  -g   -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o "Debug\RayTracerCPU.cu.obj" "H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\RayCasting\Engine\RayTracerCPU.cu" 
+         RayTracerCPU.cu
+         tmpxft_0000135c_00000000-2_RayTracerCPU.cudafe1.gpu
+         tmpxft_0000135c_00000000-7_RayTracerCPU.cudafe2.gpu
+         RayTracerCPU.cu
+         tmpxft_0000135c_00000000-2_RayTracerCPU.cudafe1.cpp
+         tmpxft_0000135c_00000000-12_RayTracerCPU.ii
+       CudaBuild:
+         Compiling CUDA source file Engine\RayTracerGPU.cu...
+         cmd.exe /C "C:\Users\kobojekp\AppData\Local\Temp\tmp6e6e732b966c4f2eb5e42341cf8c9356.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin" -rdc=true -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include"  -G   --keep-dir "Debug" -maxrregcount=0  --machine 32 --compile  -g   -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o "Debug\RayTracerGPU.cu.obj" "H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\RayCasting\Engine\RayTracerGPU.cu"
+         
+         H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\RayCasting>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin" -rdc=true -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include"  -G   --keep-dir "Debug" -maxrregcount=0  --machine 32 --compile  -g   -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o "Debug\RayTracerGPU.cu.obj" "H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\RayCasting\Engine\RayTracerGPU.cu" 
+         RayTracerGPU.cu
+         tmpxft_00001420_00000000-2_RayTracerGPU.cudafe1.gpu
+         tmpxft_00001420_00000000-7_RayTracerGPU.cudafe2.gpu
+         RayTracerGPU.cu
+         tmpxft_00001420_00000000-2_RayTracerGPU.cudafe1.cpp
+         tmpxft_00001420_00000000-12_RayTracerGPU.ii
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+         Compiling CUDA source file Geometries\World.cu...
+         cmd.exe /C "C:\Users\kobojekp\AppData\Local\Temp\tmp1a7499faa0ee4a8294e9a0b2fc204b86.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin" -rdc=true -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include"  -G   --keep-dir "Debug" -maxrregcount=0  --machine 32 --compile  -g   -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o "Debug\World.cu.obj" "H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\RayCasting\Geometries\World.cu"
+         
+         H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\RayCasting>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin" -rdc=true -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include"  -G   --keep-dir "Debug" -maxrregcount=0  --machine 32 --compile  -g   -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o "Debug\World.cu.obj" "H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\RayCasting\Geometries\World.cu" 
+         World.cu
+     1>H:/Windows7/Documents/Visual Studio 2010/Projects/RayCasting/RayCasting/Geometries/World.cu(94): warning : calling a __host__ function("hitTest") from a __host__ __device__ function("traceRay") is not allowed
+         
+     1>H:/Windows7/Documents/Visual Studio 2010/Projects/RayCasting/RayCasting/Geometries/World.cu(122): warning : calling a __host__ function("hitTest") from a __host__ __device__ function("anyObstacleBetween") is not allowed
+         
+     1>H:/Windows7/Documents/Visual Studio 2010/Projects/RayCasting/RayCasting/Geometries/World.cu(158): warning : variable "d_ptr_lights" was declared but never referenced
+         
+     1>H:/Windows7/Documents/Visual Studio 2010/Projects/RayCasting/RayCasting/Geometries/World.cu(160): warning : variable "d_spheres_ptr" was declared but never referenced
+         
+     1>H:/Windows7/Documents/Visual Studio 2010/Projects/RayCasting/RayCasting/Geometries/World.cu(88): warning : calling a __host__ function("HitInfo::HitInfo") from a __host__ __device__ function("geometries::World::traceRay") is not allowed
+         
+     1>H:/Windows7/Documents/Visual Studio 2010/Projects/RayCasting/RayCasting/Geometries/World.cu(71): warning : calling a __host__ function("geometries::PlaneGPU::hitTest") from a __host__ __device__ function("geometries::World::traceRayGPU") is not allowed
+         
+         tmpxft_0000165c_00000000-2_World.cudafe1.gpu
+         tmpxft_0000165c_00000000-7_World.cudafe2.gpu
+         World.cu
+     1>H:/Windows7/Documents/Visual Studio 2010/Projects/RayCasting/RayCasting/Geometries/World.cu(158): warning : variable "d_ptr_lights" was declared but never referenced
+         
+     1>H:/Windows7/Documents/Visual Studio 2010/Projects/RayCasting/RayCasting/Geometries/World.cu(160): warning : variable "d_spheres_ptr" was declared but never referenced
+         
+         tmpxft_0000165c_00000000-2_World.cudafe1.cpp
+         tmpxft_0000165c_00000000-12_World.ii
+     1>H:/Windows7/Documents/Visual Studio 2010/Projects/RayCasting/RayCasting/Geometries/World.cu(160): warning C4101: 'd_spheres_ptr' : unreferenced local variable
+     1>H:/Windows7/Documents/Visual Studio 2010/Projects/RayCasting/RayCasting/Geometries/World.cu(158): warning C4101: 'd_ptr_lights' : unreferenced local variable
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+         Compiling CUDA source file main.cu...
+         cmd.exe /C "C:\Users\kobojekp\AppData\Local\Temp\tmp01047b60b6984493985f2f40a0fd31ef.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin" -rdc=true -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include"  -G   --keep-dir "Debug" -maxrregcount=0  --machine 32 --compile  -g   -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o "Debug\main.cu.obj" "H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\RayCasting\main.cu"
+         
+         H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\RayCasting>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin" -rdc=true -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include"  -G   --keep-dir "Debug" -maxrregcount=0  --machine 32 --compile  -g   -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o "Debug\main.cu.obj" "H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\RayCasting\main.cu" 
+         main.cu
+         tmpxft_00001a10_00000000-2_main.cudafe1.gpu
+         tmpxft_00001a10_00000000-7_main.cudafe2.gpu
+         main.cu
+         tmpxft_00001a10_00000000-2_main.cudafe1.cpp
+         tmpxft_00001a10_00000000-12_main.ii
+       CudaBuild:
+         Compiling CUDA source file MainWindow.cu...
+         cmd.exe /C "C:\Users\kobojekp\AppData\Local\Temp\tmp630ab2ceacbe4d3da81ef5daf4cb9f26.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin" -rdc=true -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include"  -G   --keep-dir "Debug" -maxrregcount=0  --machine 32 --compile  -g   -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o "Debug\MainWindow.cu.obj" "H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\RayCasting\MainWindow.cu"
+         
+         H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\RayCasting>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin" -rdc=true -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include"  -G   --keep-dir "Debug" -maxrregcount=0  --machine 32 --compile  -g   -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o "Debug\MainWindow.cu.obj" "H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\RayCasting\MainWindow.cu" 
+         MainWindow.cu
+         tmpxft_00001b84_00000000-2_MainWindow.cudafe1.gpu
+         tmpxft_00001b84_00000000-7_MainWindow.cudafe2.gpu
+         MainWindow.cu
+         tmpxft_00001b84_00000000-2_MainWindow.cudafe1.cpp
+         tmpxft_00001b84_00000000-12_MainWindow.ii
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       CudaLink:
+         cmd.exe /C "C:\Users\kobojekp\AppData\Local\Temp\tmp4459458d16094b90a2a6d90dcdb25c86.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\nvcc.exe" -dlink -o "Debug\RayCasting.device-link.obj" -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -L"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\lib\Win32" "cudart.lib" "kernel32.lib" "user32.lib" "gdi32.lib" "winspool.lib" "comdlg32.lib" "advapi32.lib" "shell32.lib" "ole32.lib" "oleaut32.lib" "uuid.lib" "odbc32.lib" "odbccp32.lib" "SDL2main.lib" "SDL2.lib" "kernel32.lib" "user32.lib" "gdi32.lib" "winspool.lib" "comdlg32.lib" "advapi32.lib" "shell32.lib" "ole32.lib" "oleaut32.lib" "uuid.lib" "odbc32.lib" "odbccp32.lib"  -gencode=arch=compute_20,code=sm_20 -G --machine 32 Debug\OrthogonalCamera.cu.obj Debug\Pinhole.cu.obj Debug\PinholeGPU.cu.obj Debug\ColorRGB.cu.obj Debug\HitInfo.cu.obj Debug\RayTracerCPU.cu.obj Debug\RayTracerGPU.cu.obj Debug\GeometricObject.cu.obj Debug\Plane.cu.obj Debug\PlaneGPU.cu.obj Debug\Sphere.cu.obj Debug\SphereGPU.cu.obj Debug\World.cu.obj Debug\PointLight.cu.obj Debug\main.cu.obj Debug\MainWindow.cu.obj Debug\PerfectDiffuse.cu.obj Debug\Phong.cu.obj Debug\PhongGPU.cu.obj Debug\OrthonormalBasis.cu.obj Debug\Ray.cu.obj Debug\Vector2.cu.obj Debug\Vector3.cu.obj
+         
+         H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\RayCasting>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\nvcc.exe" -dlink -o "Debug\RayCasting.device-link.obj" -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -L"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\lib\Win32" "cudart.lib" "kernel32.lib" "user32.lib" "gdi32.lib" "winspool.lib" "comdlg32.lib" "advapi32.lib" "shell32.lib" "ole32.lib" "oleaut32.lib" "uuid.lib" "odbc32.lib" "odbccp32.lib" "SDL2main.lib" "SDL2.lib" "kernel32.lib" "user32.lib" "gdi32.lib" "winspool.lib" "comdlg32.lib" "advapi32.lib" "shell32.lib" "ole32.lib" "oleaut32.lib" "uuid.lib" "odbc32.lib" "odbccp32.lib"  -gencode=arch=compute_20,code=sm_20 -G --machine 32 Debug\OrthogonalCamera.cu.obj Debug\Pinhole.cu.obj Debug\PinholeGPU.cu.obj Debug\ColorRGB.cu.obj Debug\HitInfo.cu.obj Debug\RayTracerCPU.cu.obj Debug\RayTracerGPU.cu.obj Debug\GeometricObject.cu.obj Debug\Plane.cu.obj Debug\PlaneGPU.cu.obj Debug\Sphere.cu.obj Debug\SphereGPU.cu.obj Debug\World.cu.obj Debug\PointLight.cu.obj Debug\main.cu.obj Debug\MainWindow.cu.obj Debug\PerfectDiffuse.cu.obj Debug\Phong.cu.obj Debug\PhongGPU.cu.obj Debug\OrthonormalBasis.cu.obj Debug\Ray.cu.obj Debug\Vector2.cu.obj Debug\Vector3.cu.obj 
+         link.stub
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\Debug\RayCasting.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\lib\Win32" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib SDL2main.lib SDL2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\RayCasting.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\Debug\RayCasting.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\Debug\RayCasting.lib" /MACHINE:X86 Debug\OrthogonalCamera.cu.obj
+         Debug\Pinhole.cu.obj
+         Debug\PinholeGPU.cu.obj
+         Debug\ColorRGB.cu.obj
+         Debug\HitInfo.cu.obj
+         Debug\RayTracerCPU.cu.obj
+         Debug\RayTracerGPU.cu.obj
+         Debug\GeometricObject.cu.obj
+         Debug\Plane.cu.obj
+         Debug\PlaneGPU.cu.obj
+         Debug\Sphere.cu.obj
+         Debug\SphereGPU.cu.obj
+         Debug\World.cu.obj
+         Debug\PointLight.cu.obj
+         Debug\main.cu.obj
+         Debug\MainWindow.cu.obj
+         Debug\PerfectDiffuse.cu.obj
+         Debug\Phong.cu.obj
+         Debug\PhongGPU.cu.obj
+         Debug\OrthonormalBasis.cu.obj
+         Debug\Ray.cu.obj
+         Debug\Vector2.cu.obj
+         Debug\Vector3.cu.obj
+         Debug\RayCasting.exe.embed.manifest.res
+         Debug\FpsLimiter.obj
+         "Debug\RayCasting.device-link.obj"
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\RayCasting.exe.embed.manifest" /manifest Debug\RayCasting.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         RayCasting.vcxproj -> H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\Debug\RayCasting.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\cudart*.dll" "H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\cudart*.dll" "H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\cudart*.dll" "H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\cudart32_50_35.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\cudart64_50_35.dll
+                 2 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "Debug\RayCasting.unsuccessfulbuild".
+         Touching "Debug\RayCasting.lastbuildstate".
+     1>Done Building Project "H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\RayCasting\RayCasting.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:13.12

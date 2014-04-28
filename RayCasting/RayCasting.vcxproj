@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4CDEA5A9-F74F-4F3C-AC44-E2664FEE7876}</ProjectGuid>
+    <RootNamespace>RayCasting</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 5.0.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\RayCasting\SDL2\include;$(IncludePath)</IncludePath>
+    <LibraryPath>H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\RayCasting\SDL2\lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\RayCasting\SDL2\include;$(IncludePath)</IncludePath>
+    <LibraryPath>H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\RayCasting\SDL2\lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>cudart.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;SDL2main.lib;SDL2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+    </Link>
+    <PostBuildEvent>
+      <Command>echo copy "$(CudaToolkitBinDir)\cudart*.dll" "$(OutDir)"
+copy "$(CudaToolkitBinDir)\cudart*.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+    <CudaCompile>
+      <GenerateRelocatableDeviceCode>true</GenerateRelocatableDeviceCode>
+      <CodeGeneration>compute_20,sm_20</CodeGeneration>
+    </CudaCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>cudart.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;SDL2main.lib;SDL2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>echo copy "$(CudaToolkitBinDir)\cudart*.dll" "$(OutDir)"
+copy "$(CudaToolkitBinDir)\cudart*.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+    <CudaCompile>
+      <GenerateRelocatableDeviceCode>true</GenerateRelocatableDeviceCode>
+      <CodeGeneration>compute_20,sm_20</CodeGeneration>
+    </CudaCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\RayCasting\RayCasting\RayCastingSDL\RayCastingSDL.vcxproj.filters" />
+    <None Include="base.cuh" />
+    <None Include="Camera\ICamera.cuh" />
+    <None Include="Camera\OrthogonalCamera.cuh" />
+    <None Include="Camera\PinHole.cuh" />
+    <None Include="Camera\PinholeGPU.cuh" />
+    <None Include="Common\ColorRGB.cuh" />
+    <None Include="Common\HitInfo.cuh" />
+    <None Include="Engine\RayTracer.cuh" />
+    <None Include="Engine\RayTracerCPU.cuh" />
+    <None Include="Engine\RayTracerGPU.cuh" />
+    <None Include="Geometries\GeometricObject.cuh" />
+    <None Include="geometries\PlaneGPU.cuh" />
+    <None Include="Geometries\Sphere.cuh" />
+    <None Include="Geometries\SphereGPU.cuh" />
+    <None Include="Geometries\World.cuh" />
+    <None Include="Light\PointLight.cuh" />
+    <None Include="MainWindow.cuh" />
+    <None Include="Materials\IMaterial.cuh" />
+    <None Include="Materials\PerfectDiffuse.cuh" />
+    <None Include="Materials\Phong.cuh" />
+    <None Include="Materials\PhongGPU.cuh" />
+    <None Include="Primitives\OrthonormalBasis.cuh" />
+    <None Include="Primitives\primitives.cuh" />
+    <None Include="Primitives\Ray.cuh" />
+    <None Include="Primitives\Vector2.cuh" />
+    <None Include="Primitives\Vector3.cuh" />
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="Camera\OrthogonalCamera.cu" />
+    <CudaCompile Include="Camera\Pinhole.cu" />
+    <CudaCompile Include="Camera\PinholeGPU.cu" />
+    <CudaCompile Include="Common\ColorRGB.cu" />
+    <CudaCompile Include="Common\HitInfo.cu" />
+    <CudaCompile Include="Engine\RayTracerCPU.cu" />
+    <CudaCompile Include="Engine\RayTracerGPU.cu" />
+    <CudaCompile Include="Geometries\GeometricObject.cu" />
+    <CudaCompile Include="Geometries\Plane.cu" />
+    <CudaCompile Include="Geometries\PlaneGPU.cu" />
+    <CudaCompile Include="Geometries\Sphere.cu" />
+    <CudaCompile Include="Geometries\SphereGPU.cu" />
+    <CudaCompile Include="Geometries\World.cu" />
+    <CudaCompile Include="Light\PointLight.cu" />
+    <CudaCompile Include="main.cu" />
+    <CudaCompile Include="MainWindow.cu" />
+    <CudaCompile Include="Materials\PerfectDiffuse.cu" />
+    <CudaCompile Include="Materials\Phong.cu" />
+    <CudaCompile Include="Materials\PhongGPU.cu" />
+    <CudaCompile Include="Primitives\OrthonormalBasis.cu" />
+    <CudaCompile Include="Primitives\Ray.cu" />
+    <CudaCompile Include="Primitives\Vector2.cu" />
+    <CudaCompile Include="Primitives\Vector3.cu" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FpsLimiter.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FpsLimiter.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 5.0.targets" />
+  </ImportGroup>
+</Project>

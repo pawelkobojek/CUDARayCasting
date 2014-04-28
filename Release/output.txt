@@ -1,0 +1,26 @@
+RayTracerGPU: 1
+uint32_t: 4
+World: 40
+PinholeGPU: 52
+Total size of parameteres: 97
+Added sphere
+Added sphere
+Added sphere
+Added plane
+YupLight#0
+NotYupLight#1
+NotYupLight#2
+NotYupLight#3
+NotYupLight#4
+========= CUDA-MEMCHECK
+========= Program hit error 17 on CUDA API call to cudaFree 
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:C:\Windows\system32\nvcuda.dll (cuD3D11CtxCreate + 0x109889) [0x12b649]
+=========     Host Frame:H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\Release\cudart32_50_35.dll (cudaFree + 0x25f) [0x24def]
+=========
+========= Program hit error 17 on CUDA API call to cudaFree 
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:C:\Windows\system32\nvcuda.dll (cuD3D11CtxCreate + 0x109889) [0x12b649]
+=========     Host Frame:H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\Release\cudart32_50_35.dll (cudaFree + 0x25f) [0x24def]
+=========
+========= ERROR SUMMARY: 2 errors

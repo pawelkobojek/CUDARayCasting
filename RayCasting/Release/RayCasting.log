@@ -1,0 +1,258 @@
+﻿Build started 2014-04-28 15:48:04.
+     1>Project "H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\RayCasting\RayCasting.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\RayCasting.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" /I. /FIcuda_runtime.h /c "H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\RayCasting\Geometries\World.cu" 
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+         Compiling CUDA source file Geometries\World.cu...
+         cmd.exe /C "C:\Users\kobojekp\AppData\Local\Temp\tmp4a39705ba6e446eb8a947daef3a1b83b.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin" -rdc=true -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include"     --keep-dir "Release" -maxrregcount=0  --machine 32 --compile     -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD  " -o "Release\World.cu.obj" "H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\RayCasting\Geometries\World.cu"
+         
+         H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\RayCasting>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin" -rdc=true -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include"     --keep-dir "Release" -maxrregcount=0  --machine 32 --compile     -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD  " -o "Release\World.cu.obj" "H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\RayCasting\Geometries\World.cu" 
+         World.cu
+     1>H:/Windows7/Documents/Visual Studio 2010/Projects/RayCasting/RayCasting/Geometries/World.cu(96): warning : calling a __host__ function("hitTest") from a __host__ __device__ function("traceRay") is not allowed
+         
+     1>H:/Windows7/Documents/Visual Studio 2010/Projects/RayCasting/RayCasting/Geometries/World.cu(124): warning : calling a __host__ function("hitTest") from a __host__ __device__ function("anyObstacleBetween") is not allowed
+         
+     1>H:/Windows7/Documents/Visual Studio 2010/Projects/RayCasting/RayCasting/Geometries/World.cu(160): warning : variable "d_ptr_lights" was declared but never referenced
+         
+     1>H:/Windows7/Documents/Visual Studio 2010/Projects/RayCasting/RayCasting/Geometries/World.cu(162): warning : variable "d_spheres_ptr" was declared but never referenced
+         
+     1>H:/Windows7/Documents/Visual Studio 2010/Projects/RayCasting/RayCasting/Geometries/World.cu(90): warning : calling a __host__ function("HitInfo::HitInfo") from a __host__ __device__ function("geometries::World::traceRay") is not allowed
+         
+         tmpxft_00001bc8_00000000-2_World.cudafe1.gpu
+         tmpxft_00001bc8_00000000-7_World.cudafe2.gpu
+         World.cu
+     1>H:/Windows7/Documents/Visual Studio 2010/Projects/RayCasting/RayCasting/Geometries/World.cu(160): warning : variable "d_ptr_lights" was declared but never referenced
+         
+     1>H:/Windows7/Documents/Visual Studio 2010/Projects/RayCasting/RayCasting/Geometries/World.cu(162): warning : variable "d_spheres_ptr" was declared but never referenced
+         
+         tmpxft_00001bc8_00000000-2_World.cudafe1.cpp
+         tmpxft_00001bc8_00000000-12_World.ii
+     1>H:/Windows7/Documents/Visual Studio 2010/Projects/RayCasting/RayCasting/Geometries/World.cu(162): warning C4101: 'd_spheres_ptr' : unreferenced local variable
+     1>H:/Windows7/Documents/Visual Studio 2010/Projects/RayCasting/RayCasting/Geometries/World.cu(160): warning C4101: 'd_ptr_lights' : unreferenced local variable
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       CudaLink:
+         cmd.exe /C "C:\Users\kobojekp\AppData\Local\Temp\tmp4591abedb5904a99805ef15bb39b0946.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\nvcc.exe" -dlink -o "Release\RayCasting.device-link.obj" -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD  " -L"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\lib\Win32" "cudart.lib" "kernel32.lib" "user32.lib" "gdi32.lib" "winspool.lib" "comdlg32.lib" "advapi32.lib" "shell32.lib" "ole32.lib" "oleaut32.lib" "uuid.lib" "odbc32.lib" "odbccp32.lib" "SDL2main.lib" "SDL2.lib" "kernel32.lib" "user32.lib" "gdi32.lib" "winspool.lib" "comdlg32.lib" "advapi32.lib" "shell32.lib" "ole32.lib" "oleaut32.lib" "uuid.lib" "odbc32.lib" "odbccp32.lib"  -gencode=arch=compute_20,code=sm_20  --machine 32 Release\OrthogonalCamera.cu.obj Release\Pinhole.cu.obj Release\PinholeGPU.cu.obj Release\ColorRGB.cu.obj Release\HitInfo.cu.obj Release\RayTracerCPU.cu.obj Release\RayTracerGPU.cu.obj Release\GeometricObject.cu.obj Release\Plane.cu.obj Release\PlaneGPU.cu.obj Release\Sphere.cu.obj Release\SphereGPU.cu.obj Release\World.cu.obj Release\PointLight.cu.obj Release\main.cu.obj Release\MainWindow.cu.obj Release\PerfectDiffuse.cu.obj Release\Phong.cu.obj Release\PhongGPU.cu.obj Release\OrthonormalBasis.cu.obj Release\Ray.cu.obj Release\Vector2.cu.obj Release\Vector3.cu.obj
+         
+         H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\RayCasting>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\nvcc.exe" -dlink -o "Release\RayCasting.device-link.obj" -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD  " -L"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\lib\Win32" "cudart.lib" "kernel32.lib" "user32.lib" "gdi32.lib" "winspool.lib" "comdlg32.lib" "advapi32.lib" "shell32.lib" "ole32.lib" "oleaut32.lib" "uuid.lib" "odbc32.lib" "odbccp32.lib" "SDL2main.lib" "SDL2.lib" "kernel32.lib" "user32.lib" "gdi32.lib" "winspool.lib" "comdlg32.lib" "advapi32.lib" "shell32.lib" "ole32.lib" "oleaut32.lib" "uuid.lib" "odbc32.lib" "odbccp32.lib"  -gencode=arch=compute_20,code=sm_20  --machine 32 Release\OrthogonalCamera.cu.obj Release\Pinhole.cu.obj Release\PinholeGPU.cu.obj Release\ColorRGB.cu.obj Release\HitInfo.cu.obj Release\RayTracerCPU.cu.obj Release\RayTracerGPU.cu.obj Release\GeometricObject.cu.obj Release\Plane.cu.obj Release\PlaneGPU.cu.obj Release\Sphere.cu.obj Release\SphereGPU.cu.obj Release\World.cu.obj Release\PointLight.cu.obj Release\main.cu.obj Release\MainWindow.cu.obj Release\PerfectDiffuse.cu.obj Release\Phong.cu.obj Release\PhongGPU.cu.obj Release\OrthonormalBasis.cu.obj Release\Ray.cu.obj Release\Vector2.cu.obj Release\Vector3.cu.obj 
+         link.stub
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\Release\RayCasting.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\lib\Win32" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib SDL2main.lib SDL2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\RayCasting.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\Release\RayCasting.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\Release\RayCasting.lib" /MACHINE:X86 Release\OrthogonalCamera.cu.obj
+         Release\Pinhole.cu.obj
+         Release\PinholeGPU.cu.obj
+         Release\ColorRGB.cu.obj
+         Release\HitInfo.cu.obj
+         Release\RayTracerCPU.cu.obj
+         Release\RayTracerGPU.cu.obj
+         Release\GeometricObject.cu.obj
+         Release\Plane.cu.obj
+         Release\PlaneGPU.cu.obj
+         Release\Sphere.cu.obj
+         Release\SphereGPU.cu.obj
+         Release\World.cu.obj
+         Release\PointLight.cu.obj
+         Release\main.cu.obj
+         Release\MainWindow.cu.obj
+         Release\PerfectDiffuse.cu.obj
+         Release\Phong.cu.obj
+         Release\PhongGPU.cu.obj
+         Release\OrthonormalBasis.cu.obj
+         Release\Ray.cu.obj
+         Release\Vector2.cu.obj
+         Release\Vector3.cu.obj
+         Release\RayCasting.exe.embed.manifest.res
+         Release\FpsLimiter.obj
+         "Release\RayCasting.device-link.obj"
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+         Generating code
+         Finished generating code
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Release\RayCasting.exe.embed.manifest" /manifest Release\RayCasting.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\Release\RayCasting.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\lib\Win32" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib SDL2main.lib SDL2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\RayCasting.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\Release\RayCasting.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\Release\RayCasting.lib" /MACHINE:X86 Release\OrthogonalCamera.cu.obj
+         Release\Pinhole.cu.obj
+         Release\PinholeGPU.cu.obj
+         Release\ColorRGB.cu.obj
+         Release\HitInfo.cu.obj
+         Release\RayTracerCPU.cu.obj
+         Release\RayTracerGPU.cu.obj
+         Release\GeometricObject.cu.obj
+         Release\Plane.cu.obj
+         Release\PlaneGPU.cu.obj
+         Release\Sphere.cu.obj
+         Release\SphereGPU.cu.obj
+         Release\World.cu.obj
+         Release\PointLight.cu.obj
+         Release\main.cu.obj
+         Release\MainWindow.cu.obj
+         Release\PerfectDiffuse.cu.obj
+         Release\Phong.cu.obj
+         Release\PhongGPU.cu.obj
+         Release\OrthonormalBasis.cu.obj
+         Release\Ray.cu.obj
+         Release\Vector2.cu.obj
+         Release\Vector3.cu.obj
+         Release\RayCasting.exe.embed.manifest.res
+         Release\FpsLimiter.obj
+         "Release\RayCasting.device-link.obj"
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+         Generating code
+         Finished generating code
+         RayCasting.vcxproj -> H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\Release\RayCasting.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\cudart*.dll" "H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\Release\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\cudart*.dll" "H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\Release\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\cudart*.dll" "H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\Release\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\cudart32_50_35.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\cudart64_50_35.dll
+                 2 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "Release\RayCasting.unsuccessfulbuild".
+         Touching "Release\RayCasting.lastbuildstate".
+     1>Done Building Project "H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\RayCasting\RayCasting.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:15.88
