@@ -47,27 +47,17 @@ __global__ void rayTraceKernelTest(uint32_t* image, int width, int height) {
 	//}
 }
 
-__global__ void rayTraceKernel(RayTracerGPU rayTracerGPU, uint32_t* image, World* world, PinholeGPU* camera, int width, int height) {
-	rayTracerGPU.rayTrace(image, world, camera, width, height, blockIdx.x, threadIdx.x);
-	//image[blockIdx.x, threadIdx.x]=0xff000000;
-	//int X = blockIdx.x;
-	//int Y = threadIdx.x;
+__global__ void rayTraceKernel(RayTracerGPU rayTracerGPU, uint32_t* image, World* world, int count, PinholeGPU* camera, int width, int height) {
+	extern __shared__ SphereGPU d_world[];
 
-	//for(int X = 0; X < width; X++) {
-	//for (int Y = 0; Y < height; Y++)
-	//{
-	//image[PIXEL(X, Y)] = 0xFF0000;//ColorRGB(1.0f, 0.0f, 0.0f);
-	//}
-	//}
-
-	//int x = threadIdx.x, y = threadIdx.y;
-	//Vector2 pcoord = Vector2(
-	//((x + 0.5f) / (float)width) * 2 - 1,
-	//((y + 0.5f) / (float)height) * 2 - 1);
-
-	//Ray ray = camera->getRayTo(pcoord);
-
-	//shadeRayGPU(world, ray, &image[PIXEL(x, y)]);
+	if(threadIdx.x < world->objectsCount) {
+		d_world[threadIdx.x] = world->gpuspheres[threadIdx.x];
+		//for(int i = 0; i < world->objectsCount; ++i) {
+			//d_world[i] = world->gpuspheres[i];
+		//}
+	}
+	__syncthreads();
+	rayTracerGPU.rayTrace(image, d_world, count, camera, width, height, blockIdx.x, threadIdx.x);
 }
 
 int main(int argc, char** argv)
@@ -77,6 +67,7 @@ int main(int argc, char** argv)
 	uint32_t* d_data;
 	RayTracerCPU rayTracerCPU;
 	RayTracerGPU rayTracerGPU;
+	srand(time(NULL));
 
 	SphereGPU* spheres = new SphereGPU[3];
 	spheres[0] = SphereGPU(Vector3(-4.0f, 0, 0), 2, Phong(ColorRGB::red, 0.5f, 1.f, 30.f));
@@ -89,11 +80,15 @@ int main(int argc, char** argv)
 	IMaterial* blueMat = new Phong(ColorRGB::blue, 0.5f, 1.f, 30.f);
 	IMaterial* grayMat = new Phong(ColorRGB::gray, 0.5f, 1.f, 30.f);
 
-	World world = World(BACKGROUND_COLOR, 5, 5);
+	World world = World(BACKGROUND_COLOR, 400, 5);
 	world.add(new Sphere(Vector3(-4.0f, 0, 0), 2, redMat));
 	world.add(new Sphere(Vector3(4.0f, 0, 0), 2, greenMat));
 	world.add(new Sphere(Vector3(0, 0, 3.0f), 2, blueMat));
 	world.add(new Plane(Vector3(0, -2, 0), Vector3(0, 1, 0), grayMat));
+
+	for(float i = -200.0f; i < 199.0f; i+=1.0f) {
+			world.add(new Sphere(Vector3(i, 0, 0), 1, redMat));
+	}
 
 	world.addLight(new PointLight(Vector3(0, 5, -5), ColorRGB::white));
 
@@ -114,19 +109,21 @@ int main(int argc, char** argv)
 	World* d_world_ptr = World::GpuAllocFrom(&world);
 
 	bool quit = false;
-	while (!quit)
+	bool computing = true;
+	//while (!quit)
 	{
 		window.fpsLimiter.startFrame();
 
 		while (SDL_PollEvent(&window.event)) quit = window.handleEvents();
 
-		if (window.usesGPU()) {
-			rayTraceKernel<<<WIDTH,HEIGHT>>>(rayTracerGPU, d_data, d_world_ptr, d_cam, WIDTH, HEIGHT);
+		if (window.usesGPU() && computing) {
+			rayTraceKernel<<<WIDTH,HEIGHT, 16384>>>(rayTracerGPU, d_data, d_world_ptr, world.objectsCount, d_cam, WIDTH, HEIGHT);
 			gpuErrchk(cudaPeekAtLastError());
 			cudaDeviceSynchronize();
 			cudaMemcpy(data, d_data, TEXTURE_SIZE * sizeof(uint32_t), cudaMemcpyDeviceToHost);
+			//computing = false;
 		}
-		else{ 
+		else if (computing){ 
 			rayTracerCPU.rayTrace(data, &world, cam, WIDTH, HEIGHT); //rayCastingCPU(data, WIDTH, HEIGHT);
 		}
 

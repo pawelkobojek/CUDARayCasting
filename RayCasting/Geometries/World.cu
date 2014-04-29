@@ -68,14 +68,7 @@ namespace geometries
 			}
 		}
 
-		if(gpuplane->hitTest(ray, &hitDistance, &normal) && hitDistance < minimalDistance) {
-			minimalDistance = hitDistance;
-			result.hitPlane = gpuplane;
-			result.normal = normal;
-		}
-
-
-		if (result.hitPlane || result.hitObject) {
+		if (result.hitObject) {
 			result.hitPoint = ray.origin + ray.direction * minimalDistance;
 			result.ray = ray;
 			result.world = (World*) this;
@@ -135,8 +128,8 @@ namespace geometries
 		for (int i = 0; i < currentObject; i++)
 			if (gpuspheres[i].hitTest(ray, &currDistance, &ignored) && currDistance < distAB)
 				return true;
-		if(gpuplane->hitTest(ray, &currDistance, &ignored) && currDistance < distAB)
-			return true;
+		//if(gpuplane->hitTest(ray, &currDistance, &ignored) && currDistance < distAB)
+		//	return true;
 		return false;
 	}
 
@@ -169,7 +162,7 @@ namespace geometries
 				spheres[i] = SphereGPU(((Sphere*)world->objects[i])->center,
 					((Sphere*)world->objects[i])->radius,
 					*((Phong*)(((Sphere*)world->objects[i])->material)));
-				cout << "Added sphere" << endl;
+				//cout << "Added sphere" << endl;
 				gpuSpheresCount++;
 			} else if(world->objects[i] != NULL && typeid(*(world->objects[i])) == typeid(Plane) ) {
 				gpuplane = new PlaneGPU(((Plane*)world->objects[i])->point,

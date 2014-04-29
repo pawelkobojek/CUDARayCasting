@@ -14,9 +14,9 @@ namespace geometries
 {
 	class World
 	{
+	public:
 		int currentObject;
 		int currentLight;
-	public:
 		uint32_t backgroundColor;
 		int objectsCount;
 		GeometricObject** objects;

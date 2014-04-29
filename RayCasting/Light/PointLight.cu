@@ -2,7 +2,7 @@
 
 namespace light
 {
-	PointLight::PointLight(Vector3 position, ColorRGB color)
+	__host__ __device__ PointLight::PointLight(Vector3 position, ColorRGB color)
 		: position(position), color(color) {}
 	PointLight::PointLight() : color(ColorRGB(1.0f, 0.0f, 0.0f)) {
 	}

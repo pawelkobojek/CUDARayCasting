@@ -34,6 +34,7 @@ struct HitInfoGPU
 	SphereGPU* hitObject;
 	PlaneGPU* hitPlane;
 	World* world;
+	SphereGPU* d_world;
 	Vector3 normal;
 	Vector3 hitPoint;
 	Ray ray;

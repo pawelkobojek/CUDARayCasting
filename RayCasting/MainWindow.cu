@@ -2,7 +2,7 @@
 #include "MainWindow.cuh"
 #include "Engine/RayTracerGPU.cuh"
 
-MainWindow::MainWindow() : usesgpu(false), fpsLimiter(MAX_FPS)
+MainWindow::MainWindow() : usesgpu(true), fpsLimiter(MAX_FPS)
 {
 	bool software = false;
 	if (SDL_Init(SDL_INIT_VIDEO) == -1)

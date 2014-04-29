@@ -103,6 +103,7 @@ copy "$(CudaToolkitBinDir)\cudart*.dll" "$(OutDir)"</Command>
     <None Include="Engine\RayTracerCPU.cuh" />
     <None Include="Engine\RayTracerGPU.cuh" />
     <None Include="Geometries\GeometricObject.cuh" />
+    <None Include="Geometries\Plane.cuh" />
     <None Include="geometries\PlaneGPU.cuh" />
     <None Include="Geometries\Sphere.cuh" />
     <None Include="Geometries\SphereGPU.cuh" />

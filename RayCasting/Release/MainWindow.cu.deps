@@ -316,3 +316,261 @@ C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\share.h
 h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\MainWindow.cuh
 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\iostream
+H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\RayCasting\SDL2\include\SDL.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_main.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_stdinc.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_config.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_platform.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\begin_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\close_code.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdarg.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\begin_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\close_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\begin_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\close_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_stdinc.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_assert.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_config.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\begin_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\close_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_atomic.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_stdinc.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_platform.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\begin_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\close_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_audio.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_stdinc.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_error.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_stdinc.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\begin_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\close_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_endian.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_stdinc.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\begin_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\close_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_mutex.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_stdinc.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_error.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\begin_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\close_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_thread.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_stdinc.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_error.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_atomic.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_mutex.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\begin_code.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\process.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\close_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_rwops.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_stdinc.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_error.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\begin_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\close_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\begin_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\close_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_clipboard.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_stdinc.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\begin_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\close_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_cpuinfo.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_stdinc.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\intrin.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\setjmp.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\immintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\wmmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\nmmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\smmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\tmmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\pmmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\emmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xmmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\mmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\ammintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\mm3dnow.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\mmintrin.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\begin_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\close_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_endian.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_error.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_events.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_stdinc.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_error.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_video.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_stdinc.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_pixels.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_stdinc.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\begin_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\close_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_rect.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_stdinc.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_error.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_pixels.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_rwops.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\begin_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\close_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_surface.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_stdinc.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_pixels.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_rect.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_blendmode.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\begin_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\close_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_rwops.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\begin_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\close_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\begin_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\close_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_keyboard.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_stdinc.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_error.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_keycode.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_stdinc.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_scancode.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_stdinc.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_video.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\begin_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\close_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_mouse.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_stdinc.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_error.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_video.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\begin_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\close_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_joystick.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_stdinc.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_error.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\begin_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\close_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_gamecontroller.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_stdinc.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_error.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_rwops.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_joystick.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\begin_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\close_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_quit.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_stdinc.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_error.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_gesture.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_stdinc.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_error.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_video.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_touch.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_stdinc.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_error.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_video.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\begin_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\close_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\begin_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\close_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_touch.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\begin_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\close_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_filesystem.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_stdinc.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\begin_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\close_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_joystick.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_gamecontroller.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_haptic.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_stdinc.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_error.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_joystick.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\begin_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\close_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_hints.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_stdinc.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\begin_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\close_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_loadso.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_stdinc.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_error.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\begin_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\close_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_log.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_stdinc.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\begin_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\close_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_messagebox.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_stdinc.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_video.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\begin_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\close_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_mutex.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_power.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_stdinc.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\begin_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\close_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_render.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_stdinc.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_rect.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_video.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\begin_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\close_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_rwops.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_system.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_stdinc.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_keyboard.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_render.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_video.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\begin_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\close_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_thread.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_timer.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_stdinc.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_error.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\begin_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\close_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_version.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_stdinc.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\begin_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\close_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\SDL_video.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\begin_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\sdl2\include\close_code.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\FpsLimiter.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\ctime
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\base.cuh
+H:\Windows7\Documents\Visual Studio 2010\Projects\RayCasting\RayCasting\SDL2\include\SDL.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\Engine/RayTracerGPU.cuh
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\engine\../base.cuh
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\cstdint
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\engine\../Geometries/World.cuh
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\geometries\GeometricObject.cuh
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\geometries\../Primitives/Ray.cuh
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\primitives\Vector3.cuh
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\geometries\../Materials/IMaterial.cuh
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\materials\../Common/ColorRGB.cuh
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\materials\../Common/HitInfo.cuh
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\common\../Primitives/primitives.cuh
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\primitives\Vector3.cuh
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\primitives\Vector2.cuh
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\primitives\Ray.cuh
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\primitives\OrthonormalBasis.cuh
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\primitives\Vector3.cuh
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\materials\../Light/PointLight.cuh
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\light\../Primitives/primitives.cuh
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\light\../Common/ColorRGB.cuh
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\geometries\../Common/HitInfo.cuh
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\geometries\../Primitives/Ray.cuh
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\geometries\../Light/PointLight.cuh
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\geometries\../Geometries/SphereGPU.cuh
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\geometries\../Primitives/primitives.cuh
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\geometries\../Materials/Phong.cuh
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\materials\IMaterial.cuh
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\geometries\../Materials/PhongGPU.cuh
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\materials\../Materials/Phong.cuh
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\geometries\../Geometries/PlaneGPU.cuh
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\geometries\../Primitives/primitives.cuh
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\geometries\../Materials/Phong.cuh
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\geometries\../Materials/PhongGPU.cuh
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\engine\../Camera/PinholeGPU.cuh
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\camera\ICamera.cuh
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\camera\../Primitives/primitives.cuh
+h:\windows7\documents\visual studio 2010\projects\raycasting\raycasting\engine\../base.cuh
